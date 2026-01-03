@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0"  xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ExamPickerController">
+    <children>
+<!--        <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">-->
+<!--            <image>-->
+<!--                <Image url="@../../resources/AttendExamBg.png" />-->
+<!--            </image>-->
+<!--        </ImageView>-->
+        <Pane layoutX="-12.0" layoutY="222.0" prefHeight="505.0" prefWidth="1298.0" styleClass="pane-attend-bottom">
+            <children>
+                <ScrollPane layoutX="29.0" layoutY="13.0" prefHeight="473.0" prefWidth="1241.0" stylesheets="@../../resources/panes.css" styleClass="pane-scroll-whole-box" >
+                    <content>
+                        <AnchorPane fx:id="innerAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="473.0" prefWidth="1220.0" stylesheets="@../../resources/panes.css" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                            <children>
+                                <VBox fx:id="examContainer" prefHeight="473.0" prefWidth="1220.0" spacing="10" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/panes.css" />
+                    </stylesheets>
+                </ScrollPane>
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+        <Pane layoutX="1020.0" layoutY="140.0" prefHeight="51.0" prefWidth="270.0">
+            <children>
+                <Button layoutX="80.0" layoutY="1.0" mnemonicParsing="false" onAction="#reloadExamPicker" prefHeight="51.0" prefWidth="150.0" styleClass="button-attend-refresh" text="Refresh">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/buttons.css" />
+                    </stylesheets>
+                </Button>
+                <!--            <ImageView fitHeight="41.0" fitWidth="33.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--               <image>-->
+
+                <!--               </image>-->
+                <!--            </ImageView>-->
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+        <Pane layoutX="988.0" layoutY="17.0" prefHeight="85.0" prefWidth="270.0" >
+            <children>
+                <Button layoutX="112.0" layoutY="18.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="150.0" styleClass="button-attend-back" text="Back">
+                    <font>
+                        <Font size="27.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/buttons.css" />
+                    </stylesheets>
+                </Button>
+                <!--            <ImageView fitHeight="78.0" fitWidth="150.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--               <image>-->
+                <!--                  <Image url="@../../resources/190238.png" />-->
+                <!--               </image>-->
+                <!--            </ImageView>-->
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+        <Pane layoutX="206.0" layoutY="110.0" prefHeight="100.0" prefWidth="209.0" styleClass="pane-attend-choice-grade">
+            <children>
+                <Label layoutX="14.0" layoutY="20.0"  prefWidth="150.0" styleClass="label-georgia" text="Choose Grade" >
+                    <font>
+                        <Font size="100.0" />
+                    </font>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+                <ChoiceBox fx:id="classChoiceBox" layoutX="14.0" layoutY="55.0" prefHeight="30.0" prefWidth="150.0" styleClass="choicebox-grade-sub" stylesheets="@../../resources/studentdashboard.css">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </ChoiceBox>
+                <!--            <ImageView fitHeight="78.0" fitWidth="150.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--               <image>-->
+                <!--                  <Image url="@../../resources/18158161.png" />-->
+                <!--               </image>-->
+                <!--            </ImageView>-->
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+        <Pane layoutX="8.0" layoutY="182.0" prefHeight="33.0" prefWidth="168.0" >
+            <children>
+                <Label layoutX="14.0" layoutY="-6.0" prefHeight="51.0" prefWidth="150.0" styleClass="label-georgia" text="Available Exams:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+        <Pane layoutX="460.0" layoutY="110.0" prefHeight="100.0" prefWidth="209.0" styleClass="pane-attend-choice-sub">
+            <children>
+                <Label layoutX="14.0" layoutY="20.0"  prefWidth="150.0" styleClass="label-georgia" text="Choose Subject" >
+                    <font>
+                        <Font size="100.0" />
+                    </font>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+                <ChoiceBox fx:id="subChoiceBox" layoutX="14.0" layoutY="55.0" prefHeight="30.0" prefWidth="150.0" styleClass="choicebox-grade-sub" stylesheets="@../../resources/studentdashboard.css">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </ChoiceBox>
+                <!--            <ImageView fitHeight="78.0" fitWidth="150.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--               <image>-->
+                <!--                  <Image url="@../../resources/18158161.png" />-->
+                <!--               </image>-->
+                <!--            </ImageView>-->
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+    </children>
+    <stylesheets>
+        <URL value="@../../resources/studentdashboard.css" />
+        <URL value="@../../resources/panes.css" />
+    </stylesheets>
+</AnchorPane>

@@ -1,0 +1,222 @@
+.label-heading {
+-fx-font-size: 22px;
+   -fx-font-weight: bold;
+   -fx-text-fill: #263859;
+   -fx-padding: 6px 0 6px 0;
+}
+
+
+.label-section {
+   -fx-font-size: 16px;
+   -fx-font-weight: normal;
+   -fx-text-fill: #556;
+}
+
+
+.label-result {
+   -fx-font-size: 16px;
+   -fx-font-weight: bold;
+   -fx-text-fill: #FFD700;
+}
+
+
+.label-leaderboard {
+   -fx-font-size: 16px;
+   -fx-font-weight: bold;
+   -fx-text-fill: #43E97B;
+}
+
+
+.label-exam {
+   -fx-font-size: 16px;
+   -fx-font-weight: bold;
+   -fx-text-fill: #3C5A99;
+}
+
+
+.label-exam1 {
+   -fx-font-size: 19px;
+   -fx-font-weight: bold;
+   -fx-text-fill: #3C5A99;
+}
+
+
+.label-arial {
+   -fx-font-family: "Arial";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-arial:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-times {
+   -fx-font-family: "Times New Roman";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+
+
+
+
+.label-verdana {
+   -fx-font-family: "Verdana";
+   -fx-font-size: 14px;
+   -fx-text-fill: #000;
+}
+
+
+
+
+.label-verdana1 {
+   -fx-font-family: "Verdana";
+   -fx-font-size: 24px;
+   -fx-text-fill: #000;
+}
+
+
+
+
+.label-georgia {
+   -fx-font-family: "Veranda";
+   -fx-font-size: 18.5px;
+   -fx-text-fill: #a86523;
+   -fx-font-weight: bold;
+}
+
+
+
+
+.label-tahoma {
+   -fx-font-family: "Tahoma";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-tahoma:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-courier {
+   -fx-font-family: "Courier New";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-courier:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-comic {
+   -fx-font-family: "Comic Sans MS";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-comic:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-calibri {
+   -fx-font-family: "Calibri";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-calibri:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-garamond {
+   -fx-font-family: "Garamond";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-garamond:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-trebuchet {
+   -fx-font-family: "Trebuchet MS";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-trebuchet:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-impact {
+   -fx-font-family: "Impact";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-impact:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-palatino {
+   -fx-font-family: "Palatino Linotype";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-palatino:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-segoe {
+   -fx-font-family: "Segoe UI";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-segoe:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-helvetica {
+   -fx-font-family: "Helvetica";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-helvetica:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-consolas {
+   -fx-font-family: "Consolas";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-consolas:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-lucida {
+   -fx-font-family: "Lucida Sans Unicode";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-lucida:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-century {
+   -fx-font-family: "Century Gothic";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-century:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+.label-copperplate {
+   -fx-font-family: "Copperplate Gothic Bold";
+   -fx-font-size: 16px;
+   -fx-text-fill: #000;
+}
+.label-copperplate:hover { -fx-scale-x: 1.2; -fx-scale-y: 1.2; }
+
+
+/*addition*/
+
+
+.label-examTopic {
+   -fx-font-family: "System";
+   -fx-font-size: 20px;
+   -fx-text-fill: #fcefcb;
+}
+
+
+.label-class_sub_ques_mark_score {
+   -fx-font-family: "System";
+   -fx-font-size: 14px;
+   -fx-text-fill: #fcefcb;
+}
+
+
+/*.label-leaderboard {
+   -fx-font-family: "Verdana";
+   -fx-font-size: 12px;
+   -fx-text-fill: #000;
+} */

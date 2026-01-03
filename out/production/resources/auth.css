@@ -1,0 +1,54 @@
+.root {
+    -fx-background-image: url("/auth_bg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+    }
+
+Pane{
+    -fx-background-color: #fffad8; //
+    -fx-background-radius: 20px;
+}
+
+.button {
+    -fx-background-color: #e6a400;
+    -fx-background-radius: 20px;
+    -fx-border: 20;
+    -fx-border-color: #e6a400;
+    -fx-border-radius: 20px;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 10 20 10 20;
+}
+
+.button2{
+    -fx-background-color: #FFF39A;
+    -fx-text-fill: #e6a400;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+TextField{
+    -fx-background-color: #fffad8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 30;
+    -fx-border-color: #e6a400;
+    -fx-border-radius: 10;
+    -fx-prompt-text-padding: 10 20 10 20;
+}
+PasswordField{
+    -fx-background-color: #fffad8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 30;
+    -fx-border-color: #e6a400;
+    -fx-border-radius: 10;
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Bold.ttf");
+}

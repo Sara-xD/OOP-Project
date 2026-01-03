@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.studentDashController">
+    <children>
+        <ImageView fitHeight="884.0" fitWidth="1156.0" layoutX="261.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../resources/StudDashBg.png" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="-6.0" layoutY="-14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.4" prefHeight="720.0" prefWidth="1280.0" styleClass="pane-grey" visible="false">
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </AnchorPane>
+        <AnchorPane fx:id="side_anchor" layoutX="0.0" layoutY="0.0" prefHeight="721.0" prefWidth="270.0" styleClass="pane-darkblue">
+            <children>
+                <Pane fx:id="inner_pane" layoutX="17.0" layoutY="21.0" prefHeight="74.0" prefWidth="216.0" >
+                    <children>
+                        <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="85.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/StudentLogo.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="73.0" layoutY="75.0" prefHeight="35.0" prefWidth="116.0" text="Student" textFill="#a86523">
+                            <font>
+                                <Font name="Poppins SemiBold" size="24.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/panes.css" />
+                    </stylesheets>
+                </Pane>
+                <!--            <Button fx:id="btn1" graphicTextGap="10.0" layoutX="20.0" layoutY="150.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="211.0" styleClass="button5" stylesheets="@../../resources/buttons.css" text="   Home" textFill="WHITE">-->
+                <!--               <font>-->
+                <!--                  <Font name="Poppins SemiBold" size="18.0" />-->
+                <!--               </font>-->
+                <!--               <cursor>-->
+                <!--                  <Cursor fx:constant="HAND" />-->
+                <!--               </cursor>-->
+                <!--            </Button>-->
+                <Button fx:id="btn11" graphicTextGap="10.0" layoutX="30.0" layoutY="228.0" mnemonicParsing="false" onAction="#takeExam" prefHeight="55.0" prefWidth="211.0" styleClass="button5" stylesheets="@../../resources/buttons.css" text="Attend Exam" textFill="WHITE">
+                    <font>
+                        <Font name="Poppins SemiBold" size="18.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/AttendExamStudent.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="btn111" graphicTextGap="10.0" layoutX="30.0" layoutY="290.0" mnemonicParsing="false" onAction="#viewResult" prefHeight="55.0" prefWidth="211.0" styleClass="button5" stylesheets="@../../resources/buttons.css" text="View Result" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/ViewResultStudent.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="Poppins SemiBold" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="btn1111" graphicTextGap="10.0" layoutX="30.0" layoutY="353.0" mnemonicParsing="false" onAction="#leaderBoard" prefHeight="55.0" prefWidth="211.0" styleClass="button5" stylesheets="@../../resources/buttons.css" text="Leaderboard" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/LeaderboardStudent.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="Poppins SemiBold" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <ImageView fitHeight="177.0" fitWidth="171.0" layoutX="40.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../resources/BottomLogoStudent.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="65.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+
+                </ImageView>
+                <Button graphicTextGap="10.0" layoutX="30.0" layoutY="166.0" mnemonicParsing="false" onAction="#forum" prefHeight="55.0" prefWidth="211.0" styleClass="button5" stylesheets="@../../resources/buttons.css" text="Forum" textFill="WHITE">
+                    <font>
+                        <Font name="Poppins SemiBold" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="btn11111" graphicTextGap="10.0" layoutX="30.0" layoutY="414.0" mnemonicParsing="false" onAction="#logout" prefHeight="55.0" prefWidth="211.0" styleClass="button5" stylesheets="@../../resources/buttons.css" text="   Log Out" textFill="WHITE">
+                    <font>
+                        <Font name="Poppins SemiBold" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="65.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../resources/LogoutStudent.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="65.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../resources/ForumStudent.png" />
+                    </image>
+                </ImageView>
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </AnchorPane>
+        <Pane fx:id="right_pane"  layoutX="290.0" layoutY="20.0" prefHeight="102.0" prefWidth="971.0" >
+            <children>
+                <Label fx:id="nameLabel1" style="color: #a86523 ;" layoutX="20.0" layoutY="14.0" prefHeight="52.0" prefWidth="276.0" text="Label" >
+                    <font>
+                        <Font name="Poppins Medium" size="35.0" />
+                    </font>
+                </Label>
+                <Text fill="#a86523" layoutX="20" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome back, Let's continue your learning journey!">
+                    <font>
+                        <Font name="Poppins Medium" size="30.0" />
+                    </font>
+                </Text>
+                <!--            <AnchorPane fx:id="colored_card" layoutX="692.0" layoutY="7.0" prefHeight="88.0" prefWidth="265.0" styleClass="button-pastel">-->
+                <!--               <children>-->
+                <!--                  <Button layoutX="23.0" layoutY="19.0" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="138.0" styleClass="button-danger" stylesheets="@../../resources/buttons.css" text="Logout">-->
+                <!--                     <cursor>-->
+                <!--                        <Cursor fx:constant="HAND" />-->
+                <!--                     </cursor></Button>-->
+                <!--                  <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="190.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--                     <image>-->
+                <!--                        <Image url="@../../resources/8815105.png" />-->
+                <!--                     </image>-->
+                <!--                  </ImageView>-->
+                <!--               </children>-->
+                <!--               <stylesheets>-->
+                <!--                  <URL value="@../../resources/studentdashboard.css" />-->
+                <!--                  <URL value="@../../resources/panes.css" />-->
+                <!--               </stylesheets>-->
+                <!--            </AnchorPane>-->
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+
+
+        <!-- attend exam -->
+
+
+        <Pane fx:id="card" layoutX="875.0" layoutY="200.0" prefHeight="156.67" prefWidth="366.0" styleClass="pane-blue">
+            <children>
+                <Text fill="#32301f" layoutX="25.0" layoutY="120" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-result" text="Click to proceed to the examination" textAlignment="LEFT" >
+                    <font>
+                        <Font name="Poppins Medium" size="17.0" />
+                    </font>
+                </Text>
+                <Button layoutX="22" layoutY="22" mnemonicParsing="false" onAction="#takeExam" prefHeight="55.0" prefWidth="255.0" styleClass="button-blue" stylesheets="@../../resources/buttons.css" text="Attend Exam">
+                    <font>
+                        <Font name="Poppins Bold" size="13.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <ImageView fitHeight="170.0" fitWidth="160.0" layoutX="263" layoutY="-35" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../resources/PaneAttendExam.png" />
+                    </image>
+                </ImageView>
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+
+        <!-- viewresult -->
+
+        <Pane fx:id="card1" layoutX="875.0" layoutY="371.67" prefHeight="156.67" prefWidth="366.0" styleClass="pane-beige">
+            <children>
+                <Text fill="#32301f" layoutX="25" layoutY="120" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-result" text="Click to see your progress and feedback" textAlignment="LEFT" >
+                    <font>
+                        <Font name="Poppins Medium" size="17.0" />
+                    </font>
+                </Text>
+                <Button layoutX="22" layoutY="22" mnemonicParsing="false" onAction="#viewResult" prefHeight="55.0" prefWidth="271.0" styleClass="button-grey" stylesheets="@../../resources/buttons.css" text="View Result">
+                    <font>
+                        <Font name="Poppins Bold" size="13.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <ImageView fitHeight="130.0" fitWidth="100.0" layoutX="300.0" layoutY="-45" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../resources/PaneViewResult.png" />
+                    </image>
+                </ImageView>
+            </children>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+
+        <!-- leaderboard -->
+
+
+        <Pane fx:id="card11" layoutX="875.0" layoutY="543.34" prefHeight="156.67" prefWidth="366.0" styleClass="pane-gold">
+            <children>
+                <Text fill="#32301f" layoutX="25.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-result" text="Click to see your rank among the students" textAlignment="LEFT" >
+                    <font>
+                        <Font name="Poppins Medium" size="17.0" />
+                    </font>
+                </Text>
+                <Button layoutX="22.0" layoutY="22.0" mnemonicParsing="false" onAction="#leaderBoard" prefHeight="55.0" prefWidth="271.0" styleClass="button-gold" stylesheets="@../../resources/buttons.css" text="Leaderboard">
+                    <font>
+                        <Font name="Poppins Bold" size="13.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="-50" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../resources/PaneLeaderBoard.png" />
+                    </image>
+                </ImageView>
+            </children>
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+        </Pane>
+
+
+        <!-- barchart -->
+        <Pane fx:id="card2" layoutX="293.0" layoutY="200.0" prefHeight="500.0" prefWidth="551.0" styleClass="pane-lightlavender">
+            <stylesheets>
+                <URL value="@../../resources/studentdashboard.css" />
+                <URL value="@../../resources/panes.css" />
+            </stylesheets>
+            <children>
+                <BarChart fx:id="chart" layoutX="17.0" layoutY="35" prefHeight="450.0" prefWidth="497.0" title="PERFORMANCE IN LAST 5 EXAMS (Most Recent on the Left)">
+                    <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+                </BarChart>
+            </children>
+        </Pane>
+    </children>
+    <stylesheets>
+        <URL value="@../../resources/studentdashboard.css" />
+        <URL value="@../../resources/panes.css" />
+    </stylesheets>
+</AnchorPane>

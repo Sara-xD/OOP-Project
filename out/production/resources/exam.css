@@ -1,0 +1,161 @@
+.root {
+    -fx-background-image: url("/createExbg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.comboBox{
+    -fx-background-color: #ffcf71;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-font-size: 20;
+
+}
+
+.box.scroll-pane {
+    -fx-background-color: linear-gradient(to bottom right, #FFE08F, #FFE08F) ; //linear-gradient(to bottom right, #e0eafc, #cfdef3) //FFE08F, #FCEFCB, #FCEFCB
+    -fx-border-color: #A86523;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+}
+
+.box.scroll-pane .viewport {
+    -fx-background-color: transparent; /* Keep background consistent */
+}
+
+.box.scroll-pane .scroll-bar:vertical,
+.box.scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8px;
+}
+
+VBox{
+    -fx-background-color: transparent;
+}
+
+.Label2{
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+.Label3{
+    -fx-background-color: #C2FFC7;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: white;
+}
+
+.question{
+    -fx-prompt-text-fill: white;
+}
+
+.question.scroll-pane,
+.question.scroll-pane .viewport,
+.question .content {
+    -fx-background-color: #FCEFCB;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 3;
+    -fx-border-color: white;
+
+    /* actual background */
+}
+
+.selectBox{
+    -fx-background-color: #ffcf71;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-font-size: 20;
+    -fx-prompt-text-fill: black;
+}
+
+.option{
+    -fx-background-color: #FCEFCB;
+    -fx-background-radius: 10;
+//    -fx-prompt-text-fill: black;
+    -fx-border-color: #e6a400;
+    -fx-border-radius: 10;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+
+.btn{
+    -fx-background-color: #A86523;
+    -fx-background-radius: 20px;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #FCEFCB;
+    -fx-border-style: solid;
+    -fx-text-fill: #FCEFCB;
+
+}
+
+.btn:hover {
+    -fx-background-color: #FCEFCB;
+    -fx-text-fill: #A86523;
+    -fx-border-color: #A86523;
+}
+
+.title_label{
+    -fx-background-color: #A86523;
+    -fx-background-radius: 20px;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-border-color: white;
+    -fx-border-style: solid;
+    -fx-text-fill: #FCEFCB;
+    -fx-padding: 5 25 5 25;
+}
+
+.question_label{
+    -fx-background-color: #F5FDB0;
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+    -fx-border-color: #A86523;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+
+.option_label{
+    -fx-background-color: #FAFCC2; //#FBF5DE
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+    -fx-border-color: #A86523;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+}
+
+.default_label {
+    -fx-background-color: #F5FDB0;
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+    -fx-border-color: #A86523;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20 5 20;
+}
+
+.check-box {
+    -fx-font-size: 28px;
+    -fx-text-fill: white;
+    -fx-padding: 5 10 5 10;
+}
+
+.check-box .box {
+    -fx-background-color: #FAFCC2;
+    -fx-border-color: #A86523;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #A86523;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}

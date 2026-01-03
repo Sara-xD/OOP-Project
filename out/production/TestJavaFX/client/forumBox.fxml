@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="70.0" prefWidth="940.0" styleClass="forum-scroll-bg-pane" stylesheets="@../../resources/exam.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.forumBoxController">
+    <children>
+        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../resources/ForumStudent.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="topic_label" layoutX="85.0" layoutY="-3.0" prefHeight="52.0" prefWidth="683.0" text="topic" textFill="#a86523">
+            <font>
+                <Font name="Poppins SemiBold" size="28.0" />
+            </font>
+        </Label>
+        <Label layoutX="86.0" layoutY="44.0" prefHeight="19.0" prefWidth="77.0" text="Posted By :" textFill="#a86523">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <Label fx:id="post_label" layoutX="166.0" layoutY="44.0" prefHeight="0.0" prefWidth="429.0" text="Posted By :" textFill="a86523">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <Button fx:id="view" layoutX="824.0" layoutY="5.0" mnemonicParsing="false" onAction="#view" prefHeight="48.0" prefWidth="100.0" styleClass="button-forum" stylesheets="@../../resources/exam.css" text="View">
+            <font>
+                <Font name="Poppins SemiBold" size="21.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+Which period and group does Sulfur belong to in the periodic table?|Period 2, Group 16|Period 3, Group 16|Period 3, Group 17|Period 2, Group 17|B|Sulfur is in period 3 and group 16 (oxygen family).
+What is the oxidation number of Mn in KMnO₄?|+4|+6|+7|+2|C|In KMnO₄, Mn has +7 to balance K⁺ and 4×O²⁻.
+Which of the following shows both acidic and basic properties?|NaOH|HCl|NH₃|H₂O|D|Water is amphoteric; it can act as acid or base.
+Which of the following is not an allotrope of carbon?|Graphite|Diamond|Charcoal|Silicon|D|Silicon is a different element, not a form of carbon.
+Which statement is true about transition metals?|They are always colorless|They have full d-orbitals|They show variable oxidation states|They are non-reactive|C|Transition metals show variable oxidation states.
+Which gas is released during thermal decomposition of CaCO₃?|O₂|H₂|CO₂|Cl₂|C|CaCO₃ → CaO + CO₂↑
+Which compound contains both ionic and covalent bonds?|NaCl|NH₄Cl|CH₄|H₂SO₄|B|NH₄⁺ is covalent, Cl⁻ is ionic → both bond types.
+Which acid is diprotic?|HCl|HNO₃|H₂SO₄|H₃PO₄|C|H₂SO₄ can donate 2 protons → diprotic.
+Which of these is a redox reaction?|NaOH + HCl → NaCl + H₂O|Zn + CuSO₄ → ZnSO₄ + Cu|AgNO₃ + NaCl → AgCl + NaNO₃|BaCl₂ + H₂SO₄ → BaSO₄ + HCl|B|Zn is oxidized, Cu²⁺ is reduced → redox.
+Which statement about ionic compounds is false?|They have high melting points|They conduct electricity in molten state|They are soft solids|They are crystalline|C|Ionic compounds are hard, not soft.
+What happens to atomic size across a period?|Increases|Decreases|Remains same|First increases then decreases|B|More protons pull electrons closer → size decreases.
+Which of these is used in the test for unsaturation?|NaOH|Bromine water|Limewater|Dil. HCl|B|Bromine water gets decolorized by alkenes (unsaturated).
+What is the valency of phosphorus in PCl₅?|3|5|2|4|B|P forms 5 bonds with Cl → valency 5.
+Which of the following is used as a drying agent for HCl gas?|Water|Conc. H₂SO₄|NaOH|CuSO₄|B|Conc. sulfuric acid dries gases; water would react.
+What is the conjugate base of H₂SO₄?|HSO₄⁻|SO₄²⁻|H₃O⁺|OH⁻|A|H₂SO₄ loses one H⁺ → forms HSO₄⁻ → conjugate base.
+Testing|opt1|opt2|opt3|opt4|B|No explanation
+sgsdjkfgdkfgsdfjk|asdsd|sdasd|vdfv|vrffr|C|sdffdfjkfee
+test_pass|opt1|opt|opt3|opt4|C|Nothing
+ervwrtb|rtg|rtg|rtg|rtg|B|eetvrt
+dgsrg|sef|ef|sfe|sfes|B|gseg

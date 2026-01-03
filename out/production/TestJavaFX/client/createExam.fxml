@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@../../resources/exam.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.createExamController">
+   <children>
+<!--      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">-->
+<!--         <image>-->
+<!--            <Image url="@../../resources/createExbg.png" />-->
+<!--         </image>-->
+<!--      </ImageView>-->
+      <ScrollPane fitToWidth="true" hbarPolicy="NEVER" layoutX="35.0" layoutY="99.0" pannable="true" prefHeight="530.0" prefWidth="910.0" styleClass="box" stylesheets="@../../resources/exam.css" vbarPolicy="NEVER">
+         <content>
+            <VBox fx:id="questionBox" alignment="CENTER" prefWidth="1278.0" spacing="5.0" styleClass="@../../resources/exam.css">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <ComboBox fx:id="classBox" layoutX="994.0" layoutY="434.0" prefHeight="52.0" prefWidth="244.0" promptText="Select Class" styleClass="comboBox"  stylesheets="@../../resources/exam.css" visibleRowCount="3" />
+      <ComboBox fx:id="subBox" layoutX="994.0" layoutY="502.0" prefHeight="52.0" prefWidth="246.0" promptText="Select Subject" styleClass="comboBox" stylesheets="@../../resources/exam.css" visibleRowCount="3" />
+      <Button layoutX="835.0" layoutY="645.0" mnemonicParsing="false" onAction="#submit" prefHeight="40.0" prefWidth="106.0" styleClass="btn" stylesheets="@../../resources/exam.css" text="Submit">
+         <font>
+            <Font name="Poppins SemiBold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="33.0" layoutY="648.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="106.0" styleClass="btn" stylesheets="@../../resources/exam.css" text="Back">
+         <font>
+            <Font name="Poppins SemiBold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="durationBox" layoutX="992.0" layoutY="100.0" prefHeight="47.0" prefWidth="240.0" promptText="Duration" styleClass="selectBox" stylesheets="@../../resources/exam.css">
+         <font>
+            <Font name="Poppins SemiBold" size="17.0" />
+         </font>
+      </TextField>
+      <Button layoutX="994.0" layoutY="572.0" mnemonicParsing="false" onAction="#load" prefHeight="40.0" prefWidth="246.0" styleClass="btn" stylesheets="@../../resources/exam.css" text="Load Questions">
+         <font>
+            <Font name="Poppins SemiBold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="title" layoutX="994.0" layoutY="166.0" prefHeight="46.0" prefWidth="239.0" promptText="Exam title" styleClass="selectBox" stylesheets="@../../resources/exam.css">
+         <font>
+            <Font name="Poppins SemiBold" size="17.0" />
+         </font>
+      </TextField>
+      <Label layoutX="350.0" layoutY="23.0" styleClass="title_label" stylesheets="@../../resources/exam.css" text="Create an Exam">
+         <font>
+            <Font name="Poppins ExtraBold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

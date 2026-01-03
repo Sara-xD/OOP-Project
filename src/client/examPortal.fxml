@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" styleClass="pane-examPortalbg" stylesheets="@../../resources/panes.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.examPortalController">
+    <children>
+        <ScrollPane layoutX="23.0" layoutY="166.0" prefHeight="526.0" prefWidth="1241.0">
+            <content>
+                <AnchorPane fx:id="innerAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="581.0" prefWidth="1220.0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                    <children>
+                        <VBox fx:id="qsContainer" prefHeight="581.0" prefWidth="1221.0" spacing="10">
+                            <children>
+                                <Pane prefHeight="43.0" prefWidth="24.0" />
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Pane layoutX="1000.0" layoutY="50.0" prefHeight="65.0" prefWidth="200.0" styleClass="pane-examTopic" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="timeLabel" alignment="CENTER" layoutY="7.0" prefHeight="50.0" prefWidth="200.0" styleClass="label-examTopic" text="timelabel">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+
+
+                </Label>
+            </children>
+        </Pane>
+
+
+        <!--       <Pane fx:id="timePane1" layoutX="784.0" layoutY="62.0" prefHeight="31.0" prefWidth="241.0" stylesheets="@../../resources/panes.css">-->
+        <!--           <children>-->
+        <!--               <Label fx:id="timeLabel1" layoutX="14.0" layoutY="-1.0" prefHeight="31.0" prefWidth="226.0" styleClass="label-verdana">-->
+        <!--                   <stylesheets>-->
+        <!--                       <URL value="@../../resources/studentdashboard.css" />-->
+        <!--                       <URL value="@../../resources/labels.css" />-->
+        <!--                   </stylesheets>-->
+        <!--               </Label>-->
+        <!--           </children>-->
+        <!--       </Pane>-->
+
+
+        <Pane layoutX="540.0" layoutY="50.0" prefHeight="65.0" prefWidth="200.0" styleClass="pane-examTopic" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="topicLabel" alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="65.0" prefWidth="200.0" text="Topic" styleClass="label-examTopic">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+
+
+                </Label>
+            </children>
+        </Pane>
+
+
+
+
+        <Pane layoutX="14.0" layoutY="7.0" prefHeight="150.0" prefWidth="324.0"/>
+        <Pane layoutX="34.0" layoutY="26.0" prefHeight="45.0" prefWidth="139.0" styleClass="pane-class_sub_ques_mark_score" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="gradeLabel" alignment="CENTER" prefHeight="45.0" prefWidth="139.0" styleClass="label-class_sub_ques_mark_score" text="Class">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="188.0" layoutY="95.0" prefHeight="45.0" prefWidth="139.0" styleClass="pane-class_sub_ques_mark_score" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="marksLabel" alignment="CENTER" prefHeight="45.0" prefWidth="139.0" styleClass="label-class_sub_ques_mark_score" text="marks">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="34.0" layoutY="95.0" prefHeight="45.0" prefWidth="139.0" styleClass="pane-class_sub_ques_mark_score" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="qnoLabel" alignment="CENTER" prefHeight="45.0" prefWidth="139.0" styleClass="label-class_sub_ques_mark_score" text="qno">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="scorePane1" layoutX="188.0" layoutY="95.0" prefHeight="45.0" prefWidth="139.0" styleClass="pane-class_sub_ques_mark_score" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="scoreLabel" alignment="CENTER" prefHeight="45.0" prefWidth="139.0" styleClass="label-class_sub_ques_mark_score">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="188.0" layoutY="26.0" prefHeight="45.0" prefWidth="139.0" styleClass="pane-class_sub_ques_mark_score" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="subjectLabel" alignment="CENTER" prefHeight="45.0" prefWidth="139.0" styleClass="label-class_sub_ques_mark_score" text="subject">
+                    <stylesheets>
+                        <URL value="@../../resources/studentdashboard.css" />
+                        <URL value="@../../resources/labels.css" />
+                    </stylesheets>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

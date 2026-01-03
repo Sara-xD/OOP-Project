@@ -1,0 +1,128 @@
+.side_anchor{
+    -fx-background-color: #113F67;
+    -fx-border-color: #113F67;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+.inner_pane{
+    -fx-background-color: #58A0C8;
+    -fx-border-color: #58A0C8;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+
+.btn{
+    -fx-background-color: black;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-text-fill: white;
+
+}
+
+.btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-scale-x: 1.05 ;
+    -fx-scale-y: 1.05 ;
+}
+
+.root {
+    -fx-background-image: url("/dashT.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+    }
+.right_pane{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0px 0px 25px 25px;
+}
+.colored_card{
+    -fx-background-color: linear-gradient(to right, #1A3384, #2B49B3);
+    -fx-background-radius: 15px;
+}
+
+.uncolored_card{
+    -fx-background-color: #C1C1C1;
+    -fx-background-radius: 15px;
+}
+
+.card{
+    -fx-background-color: #e6a400; //#0F828C
+    -fx-border-color: #0F828C;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+.card:hover{
+    -fx-scale-x: 1.05 ;
+    -fx-scale-y: 1.05 ;
+}
+
+.card2{
+    -fx-background-color: #D2C1B6;
+    -fx-border-color: #D2C1B6;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+.card2:hover{
+    -fx-scale-x: 1.05 ;
+    -fx-scale-y: 1.05 ;
+}
+
+.card3{
+    -fx-background-color: #98A1BC;
+    -fx-border-color: #98A1BC;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+.card3:hover{
+    -fx-scale-x: 1.05 ;
+    -fx-scale-y: 1.05 ;
+}
+
+.btn2{
+    -fx-background-color: #F5F0CD;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-text-fill: black;
+
+}
+.btn2:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-scale-x: 1.05 ;
+    -fx-scale-y: 1.05 ;
+}
+
+.btn3{
+    -fx-background-color: #F9F3EF;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-text-fill: black;
+
+}
+.btn3:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-scale-x: 1.05 ;
+    -fx-scale-y: 1.05 ;
+}

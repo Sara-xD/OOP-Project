@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="1211.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.resultController">
+    <children>
+        <Pane layoutX="15.0" layoutY="17.0" prefHeight="59.0" prefWidth="934.0" styleClass="pane-options" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="Qlabel" layoutX="19.0" prefHeight="59.0" prefWidth="914.0" styleClass="label-times" stylesheets="@../../resources/labels.css" text="1. Where does the sun set?" />
+            </children>
+        </Pane>
+        <Pane layoutX="15.0" layoutY="94.0" prefHeight="42.0" prefWidth="934.0" styleClass="pane-options" stylesheets="@../../resources/panes.css">
+            <children>
+                <Pane fx:id="o1filler" layoutX="14.0" layoutY="6.0" prefHeight="28.0" prefWidth="200.0" />
+                <Label fx:id="o1label" layoutX="14.0" prefHeight="42.0" prefWidth="678.0" text="Loroeooefhdkfsdfjksd">
+                    <font>
+                        <Font name="Times New Roman" size="12.0" />
+                    </font>
+                </Label>
+                <Label fx:id="o1perc" layoutX="851.0" prefHeight="42.0" prefWidth="69.0" text="precentage" />
+            </children>
+        </Pane>
+        <Pane fx:id="o1statusPane" layoutX="985.0" layoutY="94.0" prefHeight="42.0" prefWidth="190.0" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="o1status" layoutX="14.0" layoutY="4.0" prefHeight="36.0" prefWidth="171.0" />
+            </children>
+        </Pane>
+        <Pane fx:id="o4statusPane" layoutX="985.0" layoutY="241.0" prefHeight="42.0" prefWidth="190.0" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="o4status" layoutX="14.0" layoutY="4.0" prefHeight="36.0" prefWidth="171.0" />
+            </children>
+        </Pane>
+        <Pane fx:id="o3statusPane" layoutX="985.0" layoutY="192.0" prefHeight="42.0" prefWidth="190.0" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="o3status" layoutX="14.0" layoutY="4.0" prefHeight="36.0" prefWidth="171.0" />
+            </children>
+        </Pane>
+        <Pane fx:id="o2statusPane" layoutX="985.0" layoutY="143.0" prefHeight="42.0" prefWidth="190.0" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="o2status" layoutX="14.0" layoutY="4.0" prefHeight="36.0" prefWidth="171.0" />
+            </children>
+        </Pane>
+        <Pane fx:id="QstatusPane" layoutX="985.0" layoutY="17.0" prefHeight="59.0" prefWidth="190.0" styleClass="pane-lightgreen" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="Qstatus" layoutX="14.0" layoutY="4.0" prefHeight="49.0" prefWidth="171.0" text="AnswerStatus">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="15.0" layoutY="292.0" prefHeight="87.0" prefWidth="1192.0" styleClass="pane-explanation" stylesheets="@../../resources/panes.css">
+            <children>
+                <Label fx:id="explanationLabel" layoutX="14.0" prefHeight="87.0" prefWidth="1211.0" text="Explanation: ">
+                    <font>
+                        <Font name="Times New Roman" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="15.0" layoutY="143.0" prefHeight="42.0" prefWidth="934.0" styleClass="pane-options" stylesheets="@../../resources/panes.css">
+            <children>
+                <Pane fx:id="o2filler" layoutX="14.0" layoutY="6.0" prefHeight="28.0" prefWidth="200.0" />
+                <Label fx:id="o2label" layoutX="14.0" prefHeight="42.0" prefWidth="678.0" text="Loroeooefhdkfsdfjksd">
+                    <font>
+                        <Font name="Times New Roman" size="12.0" />
+                    </font>
+                </Label>
+                <Label fx:id="o2perc" layoutX="851.0" prefHeight="42.0" prefWidth="69.0" text="precentage" />
+            </children>
+        </Pane>
+        <Pane layoutX="15.0" layoutY="192.0" prefHeight="42.0" prefWidth="934.0" styleClass="pane-options" stylesheets="@../../resources/panes.css">
+            <children>
+                <Pane fx:id="o3filler" layoutX="14.0" layoutY="6.0" prefHeight="28.0" prefWidth="200.0" />
+                <Label fx:id="o3label" layoutX="14.0" prefHeight="42.0" prefWidth="678.0" text="Loroeooefhdkfsdfjksd">
+                    <font>
+                        <Font name="Times New Roman" size="12.0" />
+                    </font>
+                </Label>
+                <Label fx:id="o3perc" layoutX="851.0" prefHeight="42.0" prefWidth="69.0" text="precentage" />
+            </children>
+        </Pane>
+        <Pane layoutX="15.0" layoutY="241.0" prefHeight="42.0" prefWidth="934.0" styleClass="pane-options" stylesheets="@../../resources/panes.css">
+            <children>
+                <Pane fx:id="o4filler" layoutX="14.0" layoutY="6.0" prefHeight="28.0" prefWidth="200.0" />
+                <Label fx:id="o4label" layoutX="14.0" prefHeight="42.0" prefWidth="678.0" text="Loroeooefhdkfsdfjksd">
+                    <font>
+                        <Font name="Times New Roman" size="12.0" />
+                    </font>
+                </Label>
+                <Label fx:id="o4perc" layoutX="851.0" prefHeight="42.0" prefWidth="69.0" text="precentage" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

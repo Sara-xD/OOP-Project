@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="root" stylesheets="@../../resources/dashboardT.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.dashtController">
+    <children>
+        <VBox prefHeight="720.0" prefWidth="250.0" stylesheets="@../../resources/dashboardT.css">
+            <children>
+                <AnchorPane fx:id="side_anchor" prefHeight="721.0" prefWidth="250.0" styleClass="side_anchor" stylesheets="@../../resources/dashboardT.css">
+                    <children>
+<!--                        <Pane fx:id="inner_pane" layoutX="17.0" layoutY="14.0" prefHeight="74.0" prefWidth="216.0" styleClass="inner_pane" stylesheets="@../../resources/dashboardT.css">-->
+<!--                            <children>-->
+                                <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="90.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/myT3.png" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="75.0" layoutY="90.0" text="Teacher" textFill="#A86523">
+                                    <font>
+                                        <Font name="Book Antiqua" size="28.0" />
+                                    </font>
+                                </Label>
+<!--                            </children>-->
+<!--                        </Pane>-->
+                        <Button fx:id="btn" graphicTextGap="10.0" layoutX="20.0" layoutY="143.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="211.0" styleClass="btn" stylesheets="@../../resources/dashboardT.css" text="Dashboard" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/Dash.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="Poppins SemiBold" size="18.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="btn1" graphicTextGap="10.0" layoutX="20.0" layoutY="213.0" mnemonicParsing="false" onAction="#AddQuestion" prefHeight="55.0" prefWidth="211.0" styleClass="btn" stylesheets="@../../resources/dashboardT.css" text="Add Question" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/question.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="Poppins SemiBold" size="18.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="btn11" graphicTextGap="10.0" layoutX="20.0" layoutY="282.0" mnemonicParsing="false" onAction="#forum" prefHeight="55.0" prefWidth="211.0" styleClass="btn" stylesheets="@../../resources/dashboardT.css" text="Forum" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/frm2.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="Poppins SemiBold" size="18.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="btn111" graphicTextGap="10.0" layoutX="20.0" layoutY="352.0" mnemonicParsing="false" onAction="#analyze" prefHeight="55.0" prefWidth="211.0" styleClass="btn" stylesheets="@../../resources/dashboardT.css" text="Analyze Result" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/ana1.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="Poppins SemiBold" size="18.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="btn1111" graphicTextGap="10.0" layoutX="20.0" layoutY="421.0" mnemonicParsing="false" onAction="#ViewExams" prefHeight="55.0" prefWidth="211.0" styleClass="btn" stylesheets="@../../resources/dashboardT.css" text="View Exams" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/report.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="Poppins SemiBold" size="18.0" />
+                            </font>
+                        </Button>
+                        <ImageView fitHeight="128.0" fitWidth="132.0" layoutX="70.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/bottom.png" />
+                            </image>
+                        </ImageView>
+                        <Button fx:id="btn11111" graphicTextGap="10.0" layoutX="15.0" layoutY="490.0" mnemonicParsing="false" onAction="#logout" prefHeight="55.0" prefWidth="211.0" styleClass="btn" stylesheets="@../../resources/dashboardT.css" text="Logout" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/logOut.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="Poppins SemiBold" size="18.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+
+        <!-- working here now -->
+        <Pane prefHeight="720.0" prefWidth="1032.0">
+            <children>
+
+
+
+                        <!-- working here now -->
+
+                        <Label fx:id="nameLabel" layoutX="450.0" layoutY="50.0" prefHeight="52.0" prefWidth="276.0" text="Label" textFill="#7B4019">
+                            <font>
+                                <Font name="Book Antiqua" size="32.0" />
+                            </font>
+                        </Label>
+                        <Text fill="#7B4019" layoutX="300.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="6.0" text="Welcome back to ExamPortal">
+                            <font>
+                                <Font name="Book Antiqua" size="28.0" />
+                            </font>
+                        </Text>
+                        <AnchorPane fx:id="colored_card" layoutX="170.0" layoutY="140.0" prefHeight="164.0" prefWidth="265.0" styleClass="card" stylesheets="@../../resources/dashboardT.css">
+                            <children>
+                                <Label stylesheets="@../../resources/dashboardT.css"  text="Students at exams" textFill="black" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="30.0">
+                                    <font>
+                                        <Font name="Poppins Medium" size="24.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="stnum" layoutX="110.0" layoutY="75.0" text="Label" textFill="black">
+                                    <font>
+                                        <Font name="Poppins SemiBold" size="38.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="uncolored_card" layoutX="523.0" layoutY="140.0" prefHeight="164.0" prefWidth="265.0" styleClass="card" stylesheets="@../../resources/dashboardT.css">
+                            <children>
+                                <Label stylesheets="@../../resources/dashboardT.css" text="Running exams" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="30.0">
+                                    <font>
+                                        <Font name="Poppins Medium" size="24.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="examnum" layoutX="110.0" layoutY="75.0" stylesheets="@../../resources/dashboardT.css" text="Label">
+                                    <font>
+                                        <Font name="Poppins SemiBold" size="38.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+
+
+
+                <!-- here i am now -->
+                <Pane fx:id="card" layoutX="38.0" layoutY="337.0" prefHeight="357.0" prefWidth="300.0" styleClass="card" stylesheets="@../../resources/dash.css">
+                    <children>
+                        <Button fx:id="btn2" layoutX="45.0" layoutY="29.0" mnemonicParsing="false" onAction="#CreateExam" prefHeight="52.0" prefWidth="216.0" styleClass="btn2" stylesheets="@../../resources/dash.css" text=" Create Exam ">
+                            <font>
+                                <Font name="Poppins SemiBold" size="21.0" />
+                            </font>
+                        </Button>
+                        <Text fill="#A86523" layoutX="64.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Create a exam by selecting questions" textAlignment="CENTER" wrappingWidth="202.13948758918582">
+                            <font>
+                                <Font name="Poppins Medium" size="17.0" />
+                            </font>
+                        </Text>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/exm1.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <!-- create exam ended -->
+                <Pane fx:id="card2" layoutX="370.0" layoutY="337.0" prefHeight="357.0" prefWidth="300.0" styleClass="card" stylesheets="@../../resources/dash.css">
+                    <children>
+                        <Button layoutX="45.0" layoutY="27.0" maxWidth="216.0" mnemonicParsing="false" onAction="#analyze" prefHeight="52.0" prefWidth="216.0" styleClass="btn2" stylesheets="@../../resources/dashboardT.css" text="Analyze Results">
+                            <font>
+                                <Font name="Poppins SemiBold" size="21.0" />
+                            </font>
+                        </Button>
+                        <Text fill="#A86523" layoutX="60.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check and analyze the results" textAlignment="CENTER" wrappingWidth="187.66122833487634">
+                            <font>
+                                <Font name="Poppins Medium" size="17.0" />
+                            </font>
+                        </Text>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../resources/ana1.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <!-- analysis exam ended -->
+                <Pane fx:id="card3" layoutX="702.0" layoutY="337.0" prefHeight="357.0" prefWidth="300.0" styleClass="card" stylesheets="@../../resources/dash.css">
+                    <children>
+                        <Button fx:id="btn3" layoutX="40.0" layoutY="26.0" mnemonicParsing="false" onAction="#AddQuestion" prefHeight="52.0" prefWidth="216.0" styleClass="btn2" stylesheets="@../../resources/dash.css" text="Add Questions">
+                            <font>
+                                <Font name="Poppins SemiBold" size="21.0" />
+                            </font>
+                        </Button>
+                        <Text fill="#A86523" layoutX="80.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add more questions" wrappingWidth="187.66122833487634">
+                            <font>
+                                <Font name="Poppins Medium" size="17.0" />
+                            </font>
+                        </Text>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                            <!--layoutX="433.0" layoutY="25.0"-->
+                            <image>
+                                <Image url="@../../resources/qs1.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <!-- Add qs exam ended -->
+            </children>
+        </Pane>
+    </children>
+</HBox>

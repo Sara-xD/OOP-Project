@@ -1,0 +1,628 @@
+.root {
+    -fx-background-image: url("/createExbg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.anchorpane-blue {
+
+   -fx-background-color: linear-gradient(to bottom right, #6A82FB, #FCF6BA);
+   -fx-background-radius: 20px;
+   -fx-border-radius: 20px;
+   -fx-border-color: #6A82FB;
+   -fx-border-width: 2px;
+}
+
+
+.anchorpane-gold {
+   -fx-background-color: linear-gradient(to bottom left, #FCE38A, #F38181);
+   -fx-background-radius: 20px;
+   -fx-border-radius: 20px;
+   -fx-border-color: #FCE38A;
+   -fx-border-width: 2px;
+}
+
+
+.anchorpane-teal {
+   -fx-background-color: linear-gradient(to right, #43E97B, #38F9D7 70%);
+   -fx-background-radius: 20px;
+   -fx-border-radius: 20px;
+   -fx-border-color: #43E97B;
+   -fx-border-width: 2px;
+}
+
+
+.anchorpane-grey {
+   -fx-background-color: linear-gradient(to left, #ECE9E6, #FFFFFF);
+   -fx-background-radius: 20px;
+   -fx-border-radius: 20px;
+   -fx-border-color: #ECE9E6;
+   -fx-border-width: 2px;
+}
+
+
+.pane-blue {
+   -fx-background-color: linear-gradient(to bottom, #87A7FF, #E1ECFF);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #87A7FF;
+   -fx-border-width: 2px;
+}
+
+
+.pane-gold {
+   -fx-background-color: linear-gradient(to right, #FFF9B2, #FFE29F);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #FFE29F;
+   -fx-border-width: 2px;
+}
+
+
+.pane-teal {
+   -fx-background-color: linear-gradient(to right, #B2FEFA, #E0FFF7);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #B2FEFA;
+   -fx-border-width: 2px;
+}
+
+
+.pane-grey {
+   -fx-background-color: linear-gradient(to bottom right, #ECE9E6, #FFFFFF);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ECE9E6;
+   -fx-border-width: 2px;
+}
+
+
+.pane-blue {
+   -fx-background-color: #ffcf71;
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ffffff;
+   -fx-border-width: 2px;
+}
+
+
+.pane-gold {
+   -fx-background-color: #ffcf71;
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ffffff;
+   -fx-border-width: 2px;
+}
+
+
+.pane-teal {
+   -fx-background-color: linear-gradient(to right, #B2FEFA, #E0FFF7);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #B2FEFA;
+   -fx-border-width: 2px;
+}
+
+
+.pane-grey {
+   -fx-background-color: linear-gradient(to bottom right, #ECE9E6, #FFFFFF);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ECE9E6;
+   -fx-border-width: 2px;
+}
+
+
+.pane-lavender {
+   -fx-background-color: linear-gradient(to right, #E0C3FC, #8EC5FC 60%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #E0C3FC;
+   -fx-border-width: 2px;
+}
+
+
+.pane-green {
+   -fx-background-color: linear-gradient(to right, #A8FF78, #78FFD6 70%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #A8FF78;
+   -fx-border-width: 2px;
+}
+
+
+.pane-white {
+   -fx-background-color: #FFFFFF;
+   -fx-background-radius: 18px;
+   -fx-border-radius: 18px;
+   -fx-border-color: #F0F0F0;
+   -fx-border-width: 2px;
+}
+
+
+.pane-coral {
+   -fx-background-color: linear-gradient(to right, #FFDEE9, #B5FFFC 70%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #FFDEE9;
+   -fx-border-width: 2px;
+}
+
+
+.pane-orange {
+   -fx-background-color: linear-gradient(to right, #FFB347, #FFCC80 80%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #FFB347;
+   -fx-border-width: 2px;
+}
+
+
+.pane-pink {
+   -fx-background-color: linear-gradient(to right, #FBD3E9, #BB377D 70%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #FBD3E9;
+   -fx-border-width: 2px;
+}
+
+
+.pane-red {
+   -fx-background-color: linear-gradient(to right, #FA8BFF, #2BD2FF 70%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #FA8BFF;
+   -fx-border-width: 2px;
+}
+
+
+.pane-beige {
+   -fx-background-color: #ffcf71;
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ffffff;
+   -fx-border-width: 2px;
+}
+
+
+.pane-slate {
+   -fx-background-color: linear-gradient(to bottom right, #cfd9df, #e2ebf0 70%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #cfd9df;
+   -fx-border-width: 2px;
+}
+
+
+.pane-yellow {
+   -fx-background-color: linear-gradient(to right, #FFE259, #FFA751);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #FFE259;
+   -fx-border-width: 2px;
+}
+
+
+.pane-mint {
+   -fx-background-color: linear-gradient(to right, #43e97b, #38f9d7);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #43e97b;
+   -fx-border-width: 2px;
+}
+
+
+.pane-sky {
+   -fx-background-color: linear-gradient(to bottom, #83a4d4, #b6fbff);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #83a4d4;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkblue {
+   -fx-background-color: #ffcf71;
+   -fx-background-radius: 0px;
+   -fx-border-radius: 0px;
+   -fx-border-color: #ffffff;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkteal {
+   -fx-background-color: linear-gradient(to right, #134E5E, #071A2C);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #134E5E;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkgrey {
+   -fx-background-color: linear-gradient(to right, #434343, #262626);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #434343;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkviolet {
+   -fx-background-color: linear-gradient(to right, #232526, #833ab4);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #833ab4;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkred {
+   -fx-background-color: linear-gradient(to right, #662D8C, #ED1E79 60%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #662D8C;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkgreen {
+   -fx-background-color: linear-gradient(to right, #134E5E, #71B280 60%);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #134E5E;
+   -fx-border-width: 2px;
+}
+
+
+.pane-darkgold {
+   -fx-background-color: linear-gradient(to right, #857676, #E7B467);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #857676;
+   -fx-border-width: 2px;
+}
+
+
+.pane-mistyblue {
+   -fx-background-color: linear-gradient(to bottom, #e0ecf7, #c8d6e5);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #c8d6e5;
+   -fx-border-width: 2px;
+}
+
+
+.pane-lightgreen {
+   -fx-background-color: linear-gradient(to right, #eafaf1, #d6f5d6);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #d6f5d6;
+   -fx-border-width: 2px;
+}
+
+
+.pane-rose {
+   -fx-background-color: linear-gradient(to bottom, #fde2e4, #fad2e1);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #fad2e1;
+   -fx-border-width: 2px;
+}
+
+
+.pane-mint {
+   -fx-background-color: linear-gradient(to right, #f0fff3, #d9f8c4);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #d9f8c4;
+   -fx-border-width: 2px;
+}
+
+
+.pane-cream {
+   -fx-background-color: linear-gradient(to right, #fffde4, #f9f7d9);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #f9f7d9;
+   -fx-border-width: 2px;
+}
+
+
+.pane-peach {
+   -fx-background-color: linear-gradient(to right, #ffe0c1, #ffe4e1);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ffe0c1;
+   -fx-border-width: 2px;
+}
+
+
+.pane-lightlavender {
+   -fx-background-color: #ffcf71;
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #ffffff;
+   -fx-border-width: 2px;
+}
+
+
+.pane-sand {
+   -fx-background-color: linear-gradient(to right, #f7ecd7, #f3f0e3);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #f3f0e3;
+   -fx-border-width: 2px;
+}
+
+
+.pane-cloud {
+   -fx-background-color: linear-gradient(to right, #f5f7fa, #c3cfe2);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #c3cfe2;
+   -fx-border-width: 2px;
+}
+
+
+.pane-lightyellow {
+   -fx-background-color: linear-gradient(to bottom, #fff9db, #f9f7d9);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #fff9db;
+   -fx-border-width: 2px;
+}
+
+
+.pane-mistyblue-strongborder {
+   -fx-background-color: linear-gradient(to bottom, #e0ecf7, #f8fafc);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #326fa8;
+   -fx-border-width: 3px;
+}
+
+
+.pane-lightgreen-strongborder {
+   -fx-background-color: linear-gradient(to right, #eafaf1, #f4fff7);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #00b97d;
+   -fx-border-width: 3px;
+}
+
+
+.pane-peach-strongborder {
+   -fx-background-color: linear-gradient(to right, #ffe8d9, #fff5ec);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #e67339;
+   -fx-border-width: 3px;
+}
+
+
+.pane-lavender-strongborder {
+   -fx-background-color: linear-gradient(to right, #f3e8ff, #faf7fd);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #7e5ca0;
+   -fx-border-width: 3px;
+}
+
+
+.pane-rose-strongborder {
+   -fx-background-color: linear-gradient(to right, #fde2e4, #fbe3e8);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #df2a5c;
+   -fx-border-width: 3px;
+}
+
+
+.pane-mint-strongborder {
+   -fx-background-color: linear-gradient(to right, #f0fff3, #eafff4);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #15a187;
+   -fx-border-width: 3px;
+}
+
+
+.pane-cream-strongborder {
+   -fx-background-color: linear-gradient(to right, #fffde4, #f9f7d9);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #c69e00;
+   -fx-border-width: 3px;
+}
+
+
+.pane-cloud-strongborder {
+   -fx-background-color: linear-gradient(to right, #f5f7fa, #f0f4f9);
+   -fx-background-radius: 16px;
+   -fx-border-radius: 16px;
+   -fx-border-color: #4376b1;
+   -fx-border-width: 3px;
+}
+
+
+/*additions by taeen*/
+/*pane of attend exam bottom*/
+
+
+.pane-attend-bottom{
+       -fx-background-color: #a86523;
+       -fx-background-radius: 16px;
+       -fx-border-radius: 16px;
+       -fx-border-color: #ffcf71;
+       -fx-border-width: 2px;
+}
+
+
+.pane-attend-mark-ques-time{
+              -fx-background-color: #fcefcb;
+              -fx-background-radius: 16px;
+              -fx-border-radius: 16px;
+              -fx-border-color: #a86523;
+              -fx-border-width: 2px;
+}
+
+
+.pane-attend-class-sub-topic{
+         -fx-background-color: #fcefcb;
+         -fx-background-radius: 16px;
+         -fx-border-radius: 16px;
+         -fx-border-color: #a86523;
+         -fx-border-width: 2px;
+}
+
+
+/* choice box panes */
+
+
+.pane-attend-choice-grade{
+  -fx-background-color: #ffcf71;
+      -fx-background-radius: 16px;
+      -fx-border-radius: 16px;
+      -fx-border-color: #fcefcb;
+      -fx-border-width: 2px;
+}
+
+
+.pane-attend-choice-sub{
+  -fx-background-color: #ffcf71;
+      -fx-background-radius: 16px;
+      -fx-border-radius: 16px;
+      -fx-border-color: #fcefcb;
+      -fx-border-width: 2px;
+}
+
+
+.pane-scroll{
+                -fx-background-color: linear-gradient(to right, #ffcf71, #fcefcb);
+
+
+                -fx-background-radius: 16px;
+                -fx-border-radius: 16px;
+
+
+                -fx-border-width: 4px;
+
+
+}
+.pane-scroll-whole-box{
+
+
+
+
+                -fx-background-radius: 16px;
+                -fx-border-radius: 16px;
+
+
+                -fx-border-width: 4px;
+
+
+}
+
+
+
+
+
+
+.poll-fill-bar-blue {
+   -fx-background-color: linear-gradient(to right, #87A7FF, #E1ECFF);
+   -fx-background-radius: 16px 0 0 16px;
+   -fx-opacity: 0.8;
+}
+.poll-fill-bar-gold {
+   -fx-background-color: linear-gradient(to right, #FFD700, #FFF6B7);
+   -fx-background-radius: 16px 0 0 16px;
+   -fx-opacity: 0.8;
+}
+.poll-fill-bar-teal {
+   -fx-background-color: linear-gradient(to right, #48C6EF, #6FEDD6);
+   -fx-background-radius: 16px 0 0 16px;
+   -fx-opacity: 0.8;
+}
+.poll-fill-bar-grey {
+   -fx-background-color: linear-gradient(to right, #BDBDBD, #E0E0E0);
+   -fx-background-radius: 16px 0 0 16px;
+   -fx-opacity: 0.8;
+}
+
+
+
+
+/*addition*/
+
+
+.pane-examTopic {
+   -fx-background-color: linear-gradient(to right, #a86523, #db8530);
+   -fx-text-fill: #fcefcb;
+   -fx-font-size: 20px;
+   -fx-font-family: "System";
+   -fx-font-weight: bold;
+   -fx-background-radius: 14px;
+   -fx-border-radius: 14px;
+   -fx-border-color: #fcefcb;
+   -fx-border-width: 2px;
+}
+
+
+.pane-examPortalbg {
+   -fx-background-color: linear-gradient(to bottom right, #ffcf71, #fcefcb);
+   -fx-border-color: #fcefcb;
+   -fx-border-width: 2px;
+}
+
+
+.pane-examTopic {
+   -fx-background-color: linear-gradient(to right, #a86523, #db8530);
+   -fx-text-fill: #fcefcb;
+   -fx-font-size: 20px;
+   -fx-font-family: "System";
+   -fx-font-weight: bold;
+   -fx-background-radius: 14px;
+   -fx-border-radius: 14px;
+   -fx-border-color: #fcefcb;
+   -fx-border-width: 2px;
+}
+
+
+.pane-class_sub_ques_mark_score {
+   -fx-background-color: linear-gradient(to right, #a86523, #db8530);
+   -fx-text-fill: #fcefcb;
+   -fx-font-size: 10px;
+   -fx-font-family: "System";
+   /*-fx-font-weight: bold;*/
+   -fx-background-radius: 10px;
+   -fx-border-radius: 10px;
+   -fx-border-color: #fcefcb;
+   -fx-border-width: 2px;
+}
+
+
+.pane-options {
+   -fx-background-color: linear-gradient(to bottom right, #ffcf71, #fcefcb);
+   -fx-background-radius: 14px;
+   -fx-border-radius: 14px;
+   -fx-border-color: #a86523;
+   -fx-border-width: 3px;
+}
+
+
+.poll-percentage {
+   -fx-background-color: linear-gradient(to right, #db8530, #f5c290);
+   -fx-background-radius: 16px 0 0 16px;
+   -fx-opacity: 0.8;
+}
+
+
+.pane-explanation {
+   -fx-background-color: linear-gradient(to right, #f5e9d3, #ffffff);
+   -fx-background-radius: 14px;
+   -fx-border-radius: 14px;
+   -fx-border-color: #db8530;
+   -fx-border-width: 3px;
+}

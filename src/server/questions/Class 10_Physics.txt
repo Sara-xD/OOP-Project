@@ -1,0 +1,15 @@
+When a body moves in a circle with constant speed, which of the following is true?|Velocity is constant|Acceleration is zero|There is no net force|Velocity is changing|D|Direction of velocity changes, so velocity changes.
+Which of the following quantities is conserved in all types of collisions?|Kinetic energy|Momentum|Velocity|Acceleration|B|Momentum is conserved in all collisions; kinetic energy only in elastic ones.
+The slope of a velocity-time graph represents?|Distance|Speed|Acceleration|Displacement|C|dv/dt gives acceleration.
+A projectile has maximum range when thrown at which angle?|30°|45°|60°|90°|B|45° gives maximum horizontal range in ideal conditions.
+What is the value of gravitational potential energy at the Earth's surface if height is zero?|Maximum|Minimum|Zero|Infinite|C|Potential energy = mgh = 0 when h = 0.
+In SHM, which of the following remains constant?|Amplitude|Velocity|Acceleration|Angular frequency|D|Angular frequency is constant in SHM.
+Which law is used to determine buoyant force?|Hooke’s Law|Pascal’s Law|Archimedes’ Principle|Newton’s 3rd Law|C|Archimedes’ principle explains buoyancy.
+A body is said to be in equilibrium when?|Only balanced forces act|Only unbalanced forces act|No force acts|It is at rest|A|Equilibrium means net force is zero.
+Which of these has dimensional formula same as energy?|Impulse|Torque|Power|Pressure|B|Torque and energy share the same unit: Nm.
+What is the reason for seasons on Earth?|Distance from Sun|Rotation of Earth|Axial tilt|Orbital speed|C|23.5° axial tilt causes seasonal variation.
+Which phenomenon proves light is a transverse wave?|Interference|Diffraction|Polarization|Reflection|C|Only transverse waves can be polarized.
+Which of these is not an assumption of the ideal gas law?|No intermolecular force|Perfect elasticity|Zero volume of particles|Constant density|D|Density can change; not assumed constant.
+What is the escape velocity from Earth’s surface?|7.9 km/s|11.2 km/s|5 km/s|9.8 m/s²|B|Escape velocity is 11.2 km/s for Earth.
+How does pressure vary with depth in a fluid?|Linearly|Logarithmically|Inversely|Not at all|A|P = ρgh → linearly with depth.
+What is the cause of centrifugal force?|Friction|Inertia|Gravitational pull|Normal force|B|Centrifugal force is a pseudo-force due to inertia in rotating frame.

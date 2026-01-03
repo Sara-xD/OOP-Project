@@ -1,0 +1,11 @@
+
+Teacher,saima,saima,saima
+Student,adiba,adiba,adiba
+Student,sara,sara,sara
+Teacher,dipa,dipa,dipa
+Student,taeen,taeen,taeen
+Teacher,raima,raima,raima
+Teacher,t,t,t
+Student,shuvra,shuvra,shuvra
+Student,present,present,present
+Student,do,do,do
